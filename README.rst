@@ -47,6 +47,16 @@ The hardware used:
 * Four momentary-on pushbuttons,
 * Various other discrete components for the input stage and support circuits.
 
+Build
+=====
+
+Build with::
+
+    rustup component add rust-src
+    cargo install xargo
+    mkdir -p $HOME/.rustup/toolchains/nightly-2017-06-05-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin
+    xargo build
+
 Current Status
 ==============
 At this early stage in the project, these features are working:

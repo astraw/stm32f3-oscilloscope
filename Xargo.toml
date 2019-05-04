@@ -3,4 +3,5 @@
 [dependencies.compiler_builtins]
 features = ["mem"]
 git = "https://github.com/rust-lang-nursery/compiler-builtins"
+rev = "5e49856003f33aa5781a0edca148be21025e18e7"
 stage = 1
